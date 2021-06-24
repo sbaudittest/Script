@@ -1,0 +1,189 @@
+//Please get the complaint solution (Remediation) from https://rules.sonarsource.com/
+
+grep -ir "//" > comment.txt
+grep -ir "//" * > /review/comment.txt
+grep -ir "//" * > /mnt/d/integreat/review/comment.txt
+grep -ir "DES" *
+grep -ir "crypt" *
+grep -ir "pass*" *
+grep -ir "pass" *
+grep -ir "password" *
+grep -ir "password" * 
+grep -ir "file" *
+grep -ir "getName" *
+grep -ir "blowfish" *
+grep -ir "cipher.getInstance" *
+grep -ir "manager.getEngineByName" *
+grep -ir "req.getPatameter" *
+grep -ir "req.getParameter" *
+grep -ir "request.getInputStream" *
+grep -ir "out.write" *
+grep -ir "initialize(1024)" *
+grep -ir "keygen1.init(64)" *
+grep -ir "sql" *
+grep -ir "select" *
+grep -ir "statement.executeQuery" *
+grep -ir "ejb-interceptors.xml" *
+grep -ir "Entity" *
+grep -ir "/etc/shadow" *
+grep -ir "database.password" *
+grep -ir "DriveManager.getConnection" *
+grep -ir "fileutils.forcedelete" *
+grep -ir "ldap" *
+grep -ir "userPassword" *
+grep -ir "runtime.getruntime().exec" *
+grep -ir "request.getParameter" *
+grep -ir "Footest" *
+grep -ir "session" *
+grep -ir "httponly"
+grep -ir "httponly" *
+grep -ir "httponly" && "secure" *
+grep -ir "httponly" && grep -ir "secure" *
+grep -ir "secure flag" *
+grep -ir "secure.cookie" *
+grep -ir "httponly" *
+  101  clear
+  102  grep -ir "httponly" *
+  103  grep -ir "session.fixation" *
+  104  grep -ir "key" *
+  105  grep -ir "io.jsonwebtoken.jwts.builder" *
+  106  grep -ir "cipher.getinstance("des")" *
+  107  grep -ir "cipher.getinstance("desedw")" *
+  108  grep -ir "cipher.getinstance("desede")" *
+  109  grep -ir "cipher.getinstance("RC2")" *
+  110  grep -ir "cipher.getinstance("RC2") *
+  111  grep -ir "cipher.getinstance("RC2")" *
+  112  grep -ir "cipher.getinstance("RC4")" *
+  113  grep -ir "cipher.getinstance("blowfish")" *
+  114  grep -ir "sethostnameverifier" *
+  115  grep -ir "urlconnection.sethostnameverifier" *
+  116  grep -ir "mkdir" *
+  117  grep -
+  118  grep -ir "resp.addheader("X-Header")" *
+  119  grep -ir "X509Certificate" *
+  120  grep -ir "antmatchers" *
+  121  grep -ir "byte[] salt" *
+  122  grep -ir "salt" *
+  123  grep -ir "url = new url(req.getparameter)" *
+  124  grep -ir "httpurlconnection conn = (HttpURLConnection) url2.openConnection()" *
+  125  grep -ir "whitelisted" *
+  126  grep -ir "sslv3" *
+  127  grep -ir "sslcontext.getInstance" *
+  128  grep -ir "InetAddress addr = InetAddress.getbyname" *
+  129  grep -ir "x-powered-by" *
+  130  grep -ir "access-control-allow-origin" *
+  131  grep -ir "builder.commad" *
+  132  grep -ir "builder.command" *
+  133  grep -ir "email.setsmtpPort" *
+  134  grep -ir "email.setSSLOnConnect" *
+  135  grep -ir "XML" *
+  136  grep -ir "transformerfactory.newinstace" *
+  137  grep -ir "transformerfactory.newinstance" *
+  138  grep -ir "SHA-1" *
+  139  grep -ir "stacktrace" *
+  140  grep -ir "e.printstacktrace" *
+  172  grep -ir "file" *
+  173  grep -ir "FileUtils." *
+  174  grep -ir "FileUtils.readFileToString" *
+  175  grep -ir "NoPadding" *
+  176  grep -ir "engine.eval" *
+  177  grep -ir "sendRedirect" *
+  178  grep -ir "ois.readObject" *
+  179  grep -ir "resp.getWriter" *
+  180  grep -ir "out.write" *
+  181  grep -ir "secp112r1" *
+  182  grep -ir "initialize(1024)" *
+  183  grep -ir "keyGen1.init(64)" *
+  184  grep -ir "executeQuery(" *
+  185  grep -ir "statement.execute" *
+  186* grep
+  187  grep -ir "executeQuery" *
+  188  grep -ir "ejb-name" *
+  189  grep -ir "xml" *
+  190  grep -ir "xxe system" *
+  191  grep -ir "file:///" *
+  192  grep -ir "database.pass" *
+  193  grep -ir "//" *
+  194  grep -ir "//" * > comments.txr
+  195  grep -ir "//" * > comments.txt
+  196  grep -ir "pass"  comments.txt
+  197  grep -ir "username"  comments.txt
+  198  ls
+  199  grep -ir "password" *
+  200  grep -ir "FileUtils.forceDelete" *
+  201  grep -ir "ldap" *
+  202  grep -ir "getRuntime().exec" *
+  203  grep -ir "keyPairGen1.initialize(1024)" *
+  204  grep -ir "//" *
+  205  grep -ir "keyPairGen1.initialize(1024)" *
+  206  grep -ir "keyGen1.init(64)" *
+  207  grep -ir "statement.executeQuery" *
+  208  grep -ir "database.password" *
+  209  grep -ir "request.getParameter("user")" *
+  210  grep -ir "FileUtils.forceDelete" *
+grep -ir "Runtime.getRuntime().exec(cmd" *
+grep -ir ".sessionFixation().none();" *
+grep -ir "jsonwebtoken" *
+grep -ir "Cipher.getInstance("DES")" *
+grep -ir "Cipher.getInstance("DESede")" *
+grep -ir "Cipher.getInstance("RC2")" *
+grep -ir "Cipher.getInstance("RC4")" *
+grep -ir "Cipher.getInstance("Blowfish")" *
+grep -ir "NullCipher" *
+grep -ir "remoteServerSession" *
+grep -ir "HttpsURLConnection urlConnection" *
+grep -ir "tempDir.mkdir" *
+grep -ir "userDetailsService" *
+grep -ir "resp.addHeader("X-Header"" *
+grep -ir "X-Header" *
+grep -ir "X509Certificate" *
+grep -ir "antmatchers" *
+grep -ir "env.put(Context.SECURITY_AUTHENTICATION" *
+grep -ir "setSeed(123456L)" *
+grep -ir "us-ascii" *
+grep -ir "printbase64Binary" *
+grep -ir "httppost.setHeader("Authorization", "Basic " + encoding);" *
+grep -ir "httppost.setHeader("Authorization", "Basic " + encoding)" *
+grep -ir "httppost.setHeader" *
+grep -ir "conn.setRequestProperty" *
+grep -ir "httppost.setHeader("Authorizatiom" *
+grep -ir "httppost.setHeader("Authorization" *
+grep -ir "httppost.setHeader("Authorization", "Basic") *
+grep -ir "httppost.setHeader("Authorization"" *
+grep -ir "HttpServletRequest.getRequestedSessionId" *
+grep -ir "HttpServletRequest.getRequestedSession" *
+grep -ir "getRequestedSession" *
+grep -ir "PBEParameterSpec" *
+grep -ir "(HttpUrlConnection) url.openConnection()" *
+grep -ir "SSLContext.getInstance" *
+grep -ir "factory.setTrustAllPackages" *
+grep -ir "Logger.info" *
+grep -ir "Logger.getName" *
+grep -ir "Cipher.getInstance("DESede/ECB/PKCS5Padding")" *
+grep -ir "email.setSSLonConnect(true)" *
+grep -ir "AES/ECB/NoPadding" *
+grep -ir "AES/CBC/PKCS5Padding" *
+grep -ir "Class.forName(className)" *
+grep -ir "Cipher.getInstance("RSA/NONE/NoPadding")" *
+grep -ir "javax.crypto.Cipher.getInstance("RSA/NONE/NoPadding")" *
+grep -ir "request.getHeader("referer");" *
+grep -ir "salt" *
+grep -ir "url = new url(req.getparameter)" *
+grep -ir "httpurlconnection conn = (HttpURLConnection) url2.openConnection()" *
+grep -ir "whitelisted" *
+grep -ir "sslv3" *
+grep -ir "sslcontext.getInstance" *
+grep -ir "InetAddress addr = InetAddress.getbyname" *
+grep -ir "x-powered-by" *
+grep -ir "access-control-allow-origin" *
+grep -ir "builder.command" *
+grep -ir "email.setsmtpPort" *
+grep -ir "email.setSSLOnConnect" *
+grep -ir "XML" *
+grep -ir "executeQuery" *
+grep -ir "transformerfactory.newinstance" *
+grep -ir "SHA-1" *
+grep -ir "stacktrace" *
+grep -ir "e.printstacktrace" *
+grep -ir "ois.readObject" *
+grep -ir "FileUtils." * > checkextactzipvuln.txt
