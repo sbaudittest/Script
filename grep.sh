@@ -1,0 +1,60 @@
+#Checklist for java based SCR projects
+#!/bin/bash
+mkdir grep
+#grep -irn --exclude-dir='grep' --exclude='*.sh' '// ' code > grep/comments.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'crypt' *  > grep/crypt.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'pass*' *  > grep/pass.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'file' *  > grep/file.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'getName' * > grep/getName.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'blowfish' * > grep/blowfish.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'cipher.getInstance' *  > grep/cipher.getInstance.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'manager.getEngineByName' * > grep/manager.getEngineByName.txt ; 
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'req.getParameter' *  > grep/req.getparameter.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'request.getInputStream' *  > grep/request.getInputStream.txt ; 
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'out.write' *  > grep/out.write.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'initialize(1024)' *  > grep/initialize1024.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'keygen1.init(64)' *  > grep/keygen1.init64.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'sql' *  > grep/sql.txt ;
+grep -rn --exclude-dir='grep' --exclude='*.sh' 'SELECT' *  > grep/select.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'statement.executeQuery' *  > grep/executequery.txt
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'ejb-interceptors.xml' *  > grep/ejb-interceptors.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'Entity' *  > grep/Entity.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' '/etc/shadow' *  > grep/etc-shadow.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'database.password' *  > grep/database.password.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'DriveManager.getConnection' *  > grep/DriveManager.getConnection.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'fileutils.forcedelete' *  > grep/fileutils.forcedelete.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'ldap' * > grep/ldap.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'userPassword' *  > grep/userPassword.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'runtime.getruntime().exec' *  > grep/getruntime.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'Footest' *  > grep/Footest.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'session' *  > grep/session.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'secure flag' *  > grep/secure-flag.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'secure.cookie' *  > grep/secure.cookie.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'httponly' *  > grep/httponly.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'session.fixation' *  > grep/session.fixation.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'key' *  > grep/key.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'io.jsonwebtoken.jwts.builder' * > grep/jsonwebtoken.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'cipher.getinstance('des')' *  > grep/des.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'cipher.getinstance('RC2')' *  > grep/rc2.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'cipher.getinstance('RC4')' *  > grep/rc4.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'cipher.getinstance('blowfish')' *  > grep/blowfish.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'sethostnameverifier' *  > grep/sethostnameverifier.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'mkdir' *  > grep/mkdir.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'resp.addheader('X-Header')' *  > grep/addheader.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'X509Certificate' *  > grep/x509cert.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'antmatchers' *  > grep/antmatchers.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'byte[] salt' *  > grep/salt.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'httpurlconnection conn = (HttpURLConnection) url2.openConnection()' *  > grep/urlconnection.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'whitelisted' *  > grep/whitelisted.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'sslv3' *  > grep/sslv3.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'sslcontext.getInstance' *  > grep/sslcontext.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'InetAddress addr = InetAddress.getbyname' *  > grep/InetAddress.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'x-powered-by' *  > grep/x-powered-by.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'access-control-allow-origin' *  > grep/allow-origin.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'builder.command' *  > grep/builder.command.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'email.setsmtpPort' *  > grep/setsmtpport.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'email.setSSLOnConnect' *  > grep/sslonconnect.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'XML' *  > grep/xml.txt
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'transformerfactory.newinstance' *  > grep/transformerfactory.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'SHA-1' *  > grep/sha1.txt ;
+grep -irn --exclude-dir='grep' --exclude='*.sh' 'e.printstacktrace' * > grep/stacktrace.txt ;
