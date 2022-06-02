@@ -20,4 +20,7 @@ printf "\n9. SECRETS RULESETS\n\n"
 semgrep --config "p/secrets" > Semgrep\ Results/secrets.txt ;
 printf "\n10. FINDSECBUGS RULESETS\n\n"
 semgrep --config "p/findsecbugs" > Semgrep\ Results/findsecbugs.txt ;
+printf "\n11. OWASP TOP TEN RULESETS\n\n"
+semgrep --config "p/owasp-top-ten" > Semgrep\ Results/owasp-top-ten.txt ;
 exit
+
